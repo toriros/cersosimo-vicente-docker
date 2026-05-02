@@ -26,11 +26,11 @@
 ## 2. Salida de docker network ls mostrando la red java-net
 ![Red creada](capturas/02-red-creada.png)
 ## 3. Salida de docker volume inspect mysql-data
-![Volumen MySQL](capturas/03-volumen-mysql.png)
+![Volumen MySQL](capturas/03-volumen-creado.png)
 ## 4. Salida de docker ps con ambos contenedores activos
-![Contenedores activos](capturas/04-contenedores-activos.png)
+![Contenedores activos](capturas/04-contenedores-corriendo.png)
 ## 5. docker network inspect java-net con ambos contenedores en la red
-![Inspección de red](capturas/05-inspeccion-red.png)
+![Inspección de red](capturas/05-network-inspect.png)
 
 ## **Parte 2 — MySQL (3 capturas)**
 ## 6. Logs de MySQL mostrando: ready for connections
