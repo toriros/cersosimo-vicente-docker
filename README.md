@@ -1,6 +1,6 @@
 # TP Docker — MySQL + Java App Server
 ## Datos del alumno
-- Nombre: Cersosimo Vicente
+- Nombre: Toribio Martin Rosendi
 ## 1. ¿Qué es Docker?
 docker desktop es un programa que te permite correr contenedores que funcionan de una forma similar a una maquina virtual pero con un menor consumo de recursos y mas portatiles
 ## 2. Volúmenes en Docker
