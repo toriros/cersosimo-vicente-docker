@@ -2,17 +2,17 @@
 ## Datos del alumno
 - Nombre: Cersosimo Vicente
 ## 1. ¿Qué es Docker?
-...
+docker desktop es un programa que te permite correr contenedores que funcionan de una forma similar a una maquina virtual pero con un menor consumo de recursos y mas portatiles
 ## 2. Volúmenes en Docker
-...
+los volumenes en docker son son mecanismo de persistencia gestionado por el mismo docker, permitiendo que los datos sobrevivan al ciclo de vida del contenedor
 ## 3. Redes en Docker
-...
+docker gestiona la comunicacion entre contenedores mediante redes virtuales, si estan en la misma red se pueden comunicar utilizando sus hostnames gracias a la gestion de docker
 ## 4. ¿Por qué Payara Server?
-...
+se elige payara server por que es una distribucion de glassfish, soporta jakarta EE, incluye una consola de admin, imagenes de docker oficiales y actualizadas y finalmente escala bien el desarrollo sin cambiar stack tecnologico
 ## 5. Explicación del docker-compose.yml
-...
+es un archivo de configuracion que permite definir y ejecutar multpiples contenedores docker con un unico servicio coordinado
 ## 6. Explicación del init.sql
-...
+es un archivo sql que se inicializa automaticamente al iniciar una base de datos por primera vez
 ## 7. Dificultades y soluciones
 
 
