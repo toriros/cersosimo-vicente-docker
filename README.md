@@ -1,20 +1,20 @@
 # TP Docker — MySQL + Java App Server
 ## Datos del alumno
-- Nombre: Cersosimo Vicente
+- Toribio Martin Rosendi
 ## 1. ¿Qué es Docker?
-...
+  Docker es una plataforma que permite crear y ejecutar aplicaciones dentro de contenedores, asegurando que funcionen igual en cualquier entorno. Su principal ventaja es el aislamiento, la portabilidad y el bajo consumo de recursos frente a una máquina virtual.
 ## 2. Volúmenes en Docker
-...
+  Los volúmenes permiten guardar datos de forma persistente aunque el contenedor se elimine o reinicie. Son fundamentales para bases de datos porque evitan la pérdida de información.
 ## 3. Redes en Docker
-...
+  Las redes permiten que los contenedores se comuniquen entre sí usando nombres internos como mysql o payara. Esto facilita la conexión entre servicios de manera segura y organizada.
 ## 4. ¿Por qué Payara Server?
-...
+  Payara Server se utiliza porque es un servidor compatible con Jakarta EE y está optimizado para aplicaciones empresariales Java. Además, se integra fácilmente con Docker y permite desplegar aplicaciones .war de forma sencilla.
 ## 5. Explicación del docker-compose.yml
-...
+  El archivo docker-compose.yml define y configura los contenedores necesarios para la aplicación, como MySQL y Payara. También permite configurar puertos, redes, volúmenes y dependencias entre servicios.
 ## 6. Explicación del init.sql
-...
+  El archivo init.sql contiene instrucciones SQL que crean tablas e insertan datos iniciales automáticamente al iniciar MySQL. Esto ayuda a preparar la base de datos sin configuraciones manuales.
 ## 7. Dificultades y soluciones
-
+  Uno de los principales problemas fue la conexión entre Payara y MySQL, solucionado usando el nombre del contenedor como host en la URL JDBC. También hubo problemas de persistencia y puertos ocupados, resueltos mediante volúmenes Docker y cambios en los puertos configurados.
 
 
 # Capturas de Pantalla Obligatorias
